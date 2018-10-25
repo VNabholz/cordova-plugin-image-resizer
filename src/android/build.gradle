@@ -1,0 +1,10 @@
+repositories{
+  jcenter()
+  flatDir{
+      dirs './lib/android', 'src/main/lib/android'
+   }
+}
+
+dependencies {
+   compile(name:'exifinterface-2711', ext:'aar')
+}
